@@ -40,7 +40,8 @@ function gameEngine(){
         gameoversound.play();
         musicsound.pause()
         inputDir={x:0,y:0};
-        alert("Game over, press any key to play again");
+        alert("Game over!! Press any key to play again");
+        speed=5;
         snakearr=[ {x:13,y:15}];
         musicsound.play();
         score=0;
